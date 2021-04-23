@@ -17,12 +17,71 @@
             <p id="description">ingresa los datos para tu proximo viaje</p>
         </header>
         <main>
-            <section>
-                <form action="" id="survey-form">
-                    <label for="">Nombre</label>
-                    <input type="text" id="name">
-                </form>
-            </section>
+            <form action="" id="survey-form">
+                <label for="name" id="name-label">
+                    <span>Nombre</span> 
+                    <br>
+                    <input type="text" placeholder="Ingrese su nombre" id="name" required>
+                </label>
+                <br><br>
+                <label for="email" id="email-label">
+                    <span>Correo</span> 
+                    <br>
+                    <input type="email" placeholder="Ingrese su correo" id="email" required>
+                </label>
+                <br><br>
+                <label for="number" id="number-label">
+                    <span>Celular</span> 
+                    <br>
+                    <input type="number" placeholder="Ingrese su numero" min="0" max="9999999999" id="number" required>
+                </label>
+                <br><br>
+                <label for="dropdown">
+                    <span>Lugares</span><br>
+                    <input list="dropdown">
+                    <datalist id="dropdown">
+                        <option value="Santa Marta">Santa Marta</option>
+                        <option value="Bogota">Bogota</option>
+                    </datalist>
+                </label>
+                <br><br><br>
+                <section>
+                    <p>Seleccione la clase en la que prefiere viajar</p>
+                    <label for="claseAvion"> 
+                        <input type="radio" name="claseAvion" value="primeraClase">Primera Clase 
+                    </label>
+                    <br><br>
+                    <label for="claseAvion"> 
+                        <input type="radio" name="claseAvion" value="segundaClase">Segunda Clase 
+                    </label>
+                    <br><br>
+                    <label for="claseAvion"> 
+                        <input type="radio" name="claseAvion" value="terceraClase">Tercera Clase 
+                    </label>
+                </section>
+                <br><br>
+                <section>
+                    <p>Seleccione el tipo de maleta que lleva</p>
+                    <label for="tipoMaleta">
+                        <input type="checkbox" name="tipoMaleta" value="bolsoDeMano">Bolso de Mano
+                    </label>
+                    <br><br>
+                    <label for="tipoMaleta">
+                        <input type="checkbox" name="tipoMaleta" value="bolsoPersonal">Bolso Personal
+                    </label>
+                    <br><br>
+                    <label for="tipoMaleta">
+                        <input type="checkbox" name="tipoMaleta" value="maleta">Maleta
+                    </label>
+                </section>
+                <br><br>
+                <label for="observaion">
+                    <p>Ingrese alguna observacion</p>
+                    <textarea name="observaion" id="observaion" cols="30" rows="10"></textarea>
+                </label>
+                <br><br>
+                <input type="submit" id="submit">
+            </form>
         </main>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
