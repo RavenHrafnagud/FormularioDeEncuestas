@@ -13,10 +13,11 @@
     </head>
     <body>
         <header>
-            <h1 id="title">Ingresa tus datos</h1>
-            <p id="description">ingresa los datos para tu proximo viaje</p>
+            <h1 id="title">Bienvenidos a AirExpress</h1>
+            <br>
+            <p id="description">Ingresa los datos para tu proximo viaje</p>
         </header>
-        <main>
+        <main class="contenedor">
             <form action="" id="survey-form">
                 <label for="name" id="name-label">
                     <span>Nombre</span> 
@@ -33,7 +34,7 @@
                 <label for="number" id="number-label">
                     <span>Celular</span> 
                     <br>
-                    <input type="number" placeholder="Ingrese su numero" min="0" max="9999999999" id="number" required>
+                    <input type="number" placeholder="Ingrese su numero" min="3000000000" max="9999999999" id="number" required>
                 </label>
                 <br><br>
                 <label for="dropdown">
@@ -47,14 +48,15 @@
                 <br><br><br>
                 <section>
                     <p>Seleccione la clase en la que prefiere viajar</p>
+                
                     <label for="claseAvion"> 
                         <input type="radio" name="claseAvion" value="primeraClase">Primera Clase 
                     </label>
-                    <br><br>
+                    <br>
                     <label for="claseAvion"> 
                         <input type="radio" name="claseAvion" value="segundaClase">Segunda Clase 
                     </label>
-                    <br><br>
+                    <br>
                     <label for="claseAvion"> 
                         <input type="radio" name="claseAvion" value="terceraClase">Tercera Clase 
                     </label>
@@ -65,19 +67,19 @@
                     <label for="tipoMaleta">
                         <input type="checkbox" name="tipoMaleta" value="bolsoDeMano">Bolso de Mano
                     </label>
-                    <br><br>
+                    <br>
                     <label for="tipoMaleta">
                         <input type="checkbox" name="tipoMaleta" value="bolsoPersonal">Bolso Personal
                     </label>
-                    <br><br>
+                    <br>
                     <label for="tipoMaleta">
                         <input type="checkbox" name="tipoMaleta" value="maleta">Maleta
                     </label>
                 </section>
                 <br><br>
-                <label for="observaion">
-                    <p>Ingrese alguna observacion</p>
-                    <textarea name="observaion" id="observaion" cols="30" rows="10"></textarea>
+                <label for="observacion">
+                    <p class="observacion">Ingrese alguna observacion</p>
+                    <textarea name="observacion" id="observacion" cols="25" rows="5"></textarea>
                 </label>
                 <br><br>
                 <input type="submit" id="submit">

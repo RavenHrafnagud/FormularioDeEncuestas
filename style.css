@@ -3,6 +3,82 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     font-size: 62.5%;
+}
+
+body{
+    background: url("./img/fondo_small.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    background-color:rgba(56, 118, 233, 0.3);
+}
+
+#survey-form{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: mediumblue;
+    border-color: midnightblue;
+    text-shadow: rgb(3, 9, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#description{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:rgb(3, 9, 29);
+    border-color: violet;
+    font-family: cursive;
+}
+
+#number{
+    width: 12rem;
+}
+
+span{
+    font-size: 1.6rem;
+    color:darkslateblue;
+}
+
+section{
+    font-size: 1.3rem;
+    color:darkslateblue;
+}
+
+input{
+    margin: 0.5rem;
+}
+
+.observacion{
+    font-size: 1.3rem;
+    color:darkslateblue;
 }
