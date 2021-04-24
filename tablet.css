@@ -41,3 +41,8 @@ section{
 #submit{
     font-size: 2.5rem;
   }
+
+#name, #email, #number{
+    width: 30rem;
+    height: 2.5rem;
+}

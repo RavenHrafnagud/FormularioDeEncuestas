@@ -2,3 +2,47 @@ body{
     background: url("./img/fondo_large.jpg");
     background-size:100% 100%;
 }
+
+.contenedor{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 2rem;
+    border-radius: 4rem;
+}
+
+#survey-form{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#title{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+}
+
+#description{
+    font-size: 4.5rem;
+}
+
+span{
+    font-size: 4rem;
+}
+
+section{
+    font-size: 4rem;
+}
+
+.observacion{
+    font-size: 4rem;
+}
+
+#observacion{
+    width: 60rem;
+    height: 15rem;
+}
+
+#submit{
+    font-size: 3rem;
+  }
