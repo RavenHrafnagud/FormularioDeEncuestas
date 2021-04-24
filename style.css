@@ -11,7 +11,8 @@ html{
 body{
     background: url("./img/fondo_small.jpg");
     background-repeat:no-repeat;
-    background-size:cover;
+    /* background-size:cover; */
+    background-size:100% 100%;
 }
 
 header{
@@ -81,4 +82,10 @@ input{
 .observacion{
     font-size: 1.3rem;
     color:darkslateblue;
+}
+
+#submit{
+  background-color: royalblue;
+  color: azure;
+  width: auto;
 }

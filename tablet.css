@@ -1,0 +1,43 @@
+body{
+    background: url("./img/fondo_medium.jpg");
+    background-size:100% 100%;
+}
+
+.contenedor{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    border-radius: 4rem;
+}
+
+#title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+#description{
+    font-size: 3rem;
+}
+
+span{
+    font-size: 3rem;
+}
+
+section{
+    font-size: 2.7rem;
+}
+
+.observacion{
+    font-size: 2.7rem;
+}
+
+#observacion{
+    width: 40rem;
+    height: 10rem;
+}
+
+#submit{
+    font-size: 2.5rem;
+  }
